@@ -4,8 +4,8 @@
 /* ============================================= */
 
 * {
-font-family: 'Lato', sans-serif;
-color: #777;
+font-family: $font-stack-primary;
+color: $brdr-color;
 box-sizing: border-box;
 }
 
@@ -17,12 +17,10 @@ a {
 text-decoration: none;
 }
 
-
-
-
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+
 
 .headline-primary {
 color: $color-primary;
@@ -45,8 +43,11 @@ font-weight: 300;
 font-style: italic;
 margin-left: 20px;
 padding-left: 20px;
-border-left: 8px solid $color-primary;
+border-left: 8px solid #58e1c1;;
 border-radius: 5px;
 }
+
+
+
 
 
