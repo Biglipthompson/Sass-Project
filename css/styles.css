@@ -342,8 +342,8 @@ template {
 /* ============================================= */
 * {
   font-family: "Lato", sans-serif;
-  color: #ccc;
   box-sizing: border-box;
+  color: gray;
 }
 
 p {
@@ -398,21 +398,36 @@ a {
 .default {
   background-color: #51ddfc;
 }
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
+.default:hover {
+  background-color: #cef5fe;
 }
 
 .success {
   background-color: #63cc82;
 }
+.success:hover {
+  background-color: #c3ebcf;
+}
+
+.error {
+  background-color: #e4757a;
+}
+.error:hover {
+  background-color: #f9e0e1;
+}
 
 .warning {
   background-color: #fd7856;
+}
+.warning:hover {
+  background-color: #feddd4;
+}
+
+.info {
+  background-color: #927bc1;
+}
+.info:hover {
+  background-color: #dad2ea;
 }
 
 /* ============================================= */
@@ -421,8 +436,7 @@ a {
 .form {
   flex-basis: 100%;
 }
-
-.input {
+.form .input {
   display: block;
   width: 94%;
   margin: 10px auto 0;
@@ -512,19 +526,19 @@ a {
   border-radius: 5px;
 }
 
-.theme .col-1 {
+.theme.col-1 {
   background-color: #927bc1;
 }
 
-.theme .col-2 {
+.theme.col-2 {
   background-color: #fd7856;
 }
 
-.theme .col-3 {
+.theme.col-3 {
   background-color: #deb2ee;
 }
 
-.theme .col-4 {
+.theme.col-4 {
   background-color: #7ee6fd;
 }
 
@@ -532,19 +546,19 @@ a {
   background-color: #88d9a0;
 }
 
-.theme .col-6 {
+.theme.col-6 {
   background-color: #4da2bb;
 }
 
-.theme .col-7 {
+.theme.col-7 {
   background-color: #ec9fa3;
 }
 
-.theme .col-8 {
+.theme.col-8 {
   background-color: #fd9f85;
 }
 
-.theme .col-9 {
+.theme.col-9 {
   background-color: #e4757a;
 }
 

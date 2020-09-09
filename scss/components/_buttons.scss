@@ -7,27 +7,46 @@ margin-top: 15px;
 width: $btn-width;
 color: $btn-color;
 border: none;
-padding: 10px 0;
+padding: $btn-pad;
 text-transform: uppercase;
-border-radius: 5px;
+border-radius: $btn-br;
 }
 
-.default {
+.default{
 background-color: $default;
+&:hover {
+background-color: $default-light;
+    } 
 }
 
-.error {
-background-color: $error;
-}
-
-.info {
-background-color: $info;
-}
 
 .success {
 background-color: $success;
+&:hover{
+background-color: $success-light;
+    }
+}
+
+
+.error{
+background-color: $error;
+&:hover{
+background-color: $error-light;
+    }
 }
 
 .warning {
 background-color: $warning;
+&:hover{
+background-color: $warning-light;
+    }
 }
+
+.info {
+background-color: $info;
+&:hover{
+background-color: $info-light;
+    }
+}
+
+

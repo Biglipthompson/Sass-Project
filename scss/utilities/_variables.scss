@@ -2,13 +2,26 @@
 
 $color-primary: #58e1c1;
 $btn-color:  #fff;
+
 $default:  #51ddfc;
-$success: #63cc82;
+$default-light: lighten($default, 25%);
+
 $error: #e4757a;
-$warning: #fd7856;
+$error-light: lighten($error, 25%);
+
+$success: #63cc82;
+$success-light: lighten($success, 25%);
+
 $info:  #927bc1;
+$info-light: lighten($info, 25%);
+
+$warning: #fd7856;
+$warning-light: lighten($warning, 25%);
+
 $text-color: #777;
-$brdr-color: #ccc;
+$base: #ccc;
+$btn-br: 5px;
+$base-dark: darken($base, 30%);
 
 // FONT VARIABLES/////
 $font-stack-primary:  'Lato', sans-serif;
@@ -20,3 +33,4 @@ $brk-narrow: '(max-width: 768px)';
 
 // 
 $btn-width: 100%;
+$btn-pad: 10px 0;
